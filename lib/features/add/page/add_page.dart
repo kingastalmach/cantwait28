@@ -38,7 +38,7 @@ class _AddPageState extends State<AddPage> {
           builder: (context, state) {
             return Scaffold(
               appBar: AppBar(
-                title: const Text('Add new upcoming title'),
+                title: const Text('Add new upcoming race'),
                 actions: [
                   IconButton(
                     onPressed: _imageURL == null ||
